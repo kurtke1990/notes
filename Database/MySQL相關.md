@@ -16,6 +16,7 @@
 - [CONCAT](#CONCAT)
 - [LENGTH](#LENGTH)
 - [CHAR_LENGTH](#CHAR_LENGTH)
+- [ISNULL](#ISNULL)
 
 ---
 
@@ -129,4 +130,10 @@ SELECT LENGTH('測試');
 查詢字串有幾個字
 ```sql
 SELECT CHAR_LENGTH('測試');
+```
+
+### ISNULL
+```sql
+-- 如果 commission 為 null, 回傳 1, 不為 null 則回傳 0
+SELECT ISNULL(commission) FROM employee;
 ```

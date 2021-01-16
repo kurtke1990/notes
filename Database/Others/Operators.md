@@ -8,10 +8,12 @@
 ---
 
 ## Arithmetic
+
 SELECT 數字 (+-\*/) 數字 -> 直接做相對應的計算
 SELECT 字串 (+-\*/) 數字 -> 先將字串試著轉數字，若成功
 做相對應的計算，若失敗，先將字串轉換成 0 再做相對應的計算
 SELECT 數字或字串 (+-\*/) null -> 結果為 null
+
 ```sql
 -- 15
 SELECT 10 + 5;
@@ -43,7 +45,9 @@ SELECT null / '10';
 ```
 
 ## Comparison
+
 通常搭配 WHERE clause 一起使用
+
 ```sql
 -- = 等於
 SELECT * FROM product
@@ -71,7 +75,9 @@ WHERE price <> 30;
 ```
 
 ## Logical
+
 當有兩個以上條件進行判斷時使用
+
 ```sql
 -- AND
 -- 查詢在英國倫敦的 customer

@@ -3,12 +3,12 @@
 
 [基本語法](#基本語法)
 [一般查詢](#一般查詢)
-[Alias](#Alias)
 [條件查詢](#條件查詢)
 
 ---
 
 ## 基本語法
+
 ```sql
 SELECT A FROM B;
 ```
@@ -26,6 +26,7 @@ B 可以是
 - table name
 
 ## 一般查詢
+
 ```sql
 -- constant
 SELECT 'john';
@@ -46,36 +47,10 @@ SELECT * FROM student;
 SELECT 3*4;
 ```
 
-## Alias
-如果欄位資料資複雜的計算才能得到，可透過 Alias 讓欄位名稱變得易懂
-
-```sql
--- 方式一: 使用 AS
-SELECT 3*4 AS 結果;
-
-SELECT 
-	s.stu_id AS 學號,
-	s.stu_name AS 學生姓名,
-	s.stu_age AS 學生年齡
-FROM student s;
-
--- 方式二: 使用空格
-SELECT 3*4 結果;
-
-SELECT 
-	s.stu_id 學號,
-	s.stu_name 學生姓名,
-	s.stu_age 學生年齡
-FROM student s;
-
--- 如果 alias 中有特殊符號，alias 需要放在 '' 或 "" 中
-SELECT 
-	s.stu_id "學生 編號"
-FROM student s;
-```
-
 ## 條件查詢
+
 根據判斷條件進行查詢
+
 ```sql
 -- 查詢大於 20 歲的學生
 SELECT * FROM student s WHERE s.stu_age > 20;
