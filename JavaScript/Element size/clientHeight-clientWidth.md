@@ -9,4 +9,4 @@
 3. 當橫向卷軸未出現時，clientWidth = 內容寬度 + padding-left + padding-right
 
 ## 圖解
-![clientHeight&clientWidth](clientHeight&clientWidth.png)
+![clientHeight&clientWidth](/images/clientHeight&clientWidth.png)

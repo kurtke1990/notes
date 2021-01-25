@@ -24,7 +24,7 @@ component 初次渲染時，依序執行
 1. [componentWillUnmount()](/React/TopLevelAPIs/Components/LifecycleMethods/componentWillUnmount().md)
 
 ### diagram
-![React Lifecycle Methods diagram](/Images/ReactLifecycleMethodsdiagram.png)
+![React Lifecycle Methods diagram](/images/ReactLifecycleMethodsdiagram.png)
 
 ### 其他
 

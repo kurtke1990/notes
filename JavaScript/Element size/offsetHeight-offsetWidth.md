@@ -9,4 +9,4 @@
 3. 當直向卷軸未出現時，offsetWidth = 內容寬度 + padding-left + padding-right + border-left + border-right + 直向卷軸高度 (若無則省略)
 
 ## 圖解
-![offsetHeight&offsetWidth](offsetHeight&offsetWidth.png)
+![offsetHeight&offsetWidth](/images/offsetHeight&offsetWidth.png)
