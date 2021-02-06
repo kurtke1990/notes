@@ -1,9 +1,9 @@
 # Operators
 ---
 
-[Arithmetic](#Arithmetic)
-[Comparison](#Comparison)
-[Logical](#Logical)
+[Arithmetic](Operators.md#Arithmetic)
+[Comparison](Operators.md#Comparison)
+[Logical](Operators.md#Logical)
 
 ---
 
